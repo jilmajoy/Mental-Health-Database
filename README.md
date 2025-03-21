@@ -37,15 +37,20 @@ How to Run the Project
 
 1. Setting Up the Database
 Install PostgreSQL and create a new database:
+
 CREATE DATABASE mental_health_db;
+
 Execute the SQL script to create tables and insert sample data:
+
 psql -U your_username -d mental_health_db -f create_tables.sql
 psql -U your_username -d mental_health_db -f insert_data.sql
+
 2. Connecting to the Database with Python
 Install dependencies:
 pip install psycopg2 SQLAlchemy pandas matplotlib seaborn plotly
 Run the Python script for data analysis:
 python analysis.py
+
 3. Querying the Database
 Example SQL query to retrieve active patients:
 SELECT first_name, last_name FROM Patient WHERE patient_id IN 
