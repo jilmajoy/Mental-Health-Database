@@ -8,15 +8,22 @@ The goal of this project is to centralize clinic operations by integrating patie
 Features
 
 Patient Management: Stores and manages patient demographics, medical history, and therapy sessions.
+
 Therapist Scheduling: Tracks therapist availability and appointments.
+
 Treatment Tracking: Records therapy sessions, follow-ups, and prescribed medications.
+
 Billing & Claims Processing: Manages invoices, insurance claims, and payments.
+
 Data Analysis & Visualization: Provides insights into clinic performance, therapy trends, insurance claim approvals, and patient demographics.
 
 
 Database: PostgreSQL
+
 Programming Language: Python
+
 Libraries Used: psycopg2, SQLAlchemy, Pandas, Matplotlib, Seaborn, Plotly (for interactive maps)
+
 Development Tools: Jupyter Notebook
 
 Database Schema
@@ -24,15 +31,25 @@ Database Schema
 The database consists of 10 interconnected tables:
 
 Patient: Stores patient demographics and medical history.
+
 Therapist: Holds therapist details such as specialization and qualification.
+
 TherapistSchedule: Tracks therapist availability.
+
 Therapy: Logs therapy sessions and follow-up requirements.
+
 Medication: Records prescribed medications.
+
 MentalHealthScreening: Stores screening assessments like PHQ-9 and GAD-7 scores.
+
 Insurance: Contains patient insurance details.
+
 Claim: Manages insurance claims and approvals.
+
 Bill: Stores invoices for therapy sessions.
+
 BillPayment: Tracks payments made by patients or insurance.
+
 How to Run the Project
 
 1. Setting Up the Database
