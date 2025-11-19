@@ -12,7 +12,7 @@ Therapist Scheduling: Tracks therapist availability and appointments.
 Treatment Tracking: Records therapy sessions, follow-ups, and prescribed medications.
 Billing & Claims Processing: Manages invoices, insurance claims, and payments.
 Data Analysis & Visualization: Provides insights into clinic performance, therapy trends, insurance claim approvals, and patient demographics.
-Tech Stack
+
 
 Database: PostgreSQL
 Programming Language: Python
